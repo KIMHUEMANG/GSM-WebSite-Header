@@ -1,0 +1,58 @@
+body{
+    margin : 0;
+    background-color: antiquewhite;
+}
+
+.navtag{
+    display:flex;
+    height: 80px;
+    background-color: #4545e9f5;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(68, 66, 66, 0.108);
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    color:white;
+    font-size: 32px;
+    font-weight: 700;
+    padding:5px;
+    padding-right: 0;
+}
+
+div > i{
+    padding:8px 12px;
+    font-size:32px;
+}
+
+.list{
+    display:flex;
+    justify-content: center;
+    padding-left : 0;
+}
+
+.todo{
+    list-style: none;
+    padding: 8px 12px;
+}
+
+.todo > a{
+    color:white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.todo:hover{
+    background-color : orange;
+}
+
+a > i{
+    padding: 12px 24px;
+    color : white;
+    font-size: 32px;
+}
